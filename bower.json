@@ -1,0 +1,24 @@
+{
+  "name": "bs-enhance",
+  "version": "1.0.0",
+  "homepage": "https://github.com/deantawonezvi/bs-enhance",
+  "authors": [
+    "deant <deantawonezvi1@gmail.com>"
+  ],
+  "description": "Material Design inspired CSS to add on top of Bootstrap",
+  "main": "",
+  "keywords": [
+    "Material",
+    "Design",
+    "Bootstrap"
+  ],
+  "license": "Apache 2.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
