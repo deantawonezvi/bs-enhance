@@ -288,11 +288,11 @@ body a{
     padding:1em;
     border: 1px solid #ebeff6;
     border-color: #ebeff6;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -o-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
     box-shadow: 0 1px 1px rgba(0,0,0,.05);
 }
@@ -300,7 +300,6 @@ body a{
     font-size:0.9em;
 }
 .banner  h2 a {
-    color:#9c27b0;
     text-decoration:none;
     font-family: 'Muli-Regular', monospace;
     padding:0.3em ;
@@ -454,13 +453,6 @@ td, th {
     table.responsive-table.bordered tbody tr {
         border-right: 1px solid #d0d0d0;
     }
-}
-.clickable {
-    cursor: pointer;
-    -webkit-user-select: none; /* webkit (safari, chrome) browsers */
-    -moz-user-select: none; /* mozilla browsers */
-    -khtml-user-select: none; /* webkit (konqueror) browsers */
-    -ms-user-select: none; /* IE10+ */
 }
 
 .search-input{
@@ -689,6 +681,15 @@ input[type=range] + .thumb {
     .hide-tablet { display: none; }
 }
 
+.clickable {
+    cursor: pointer;
+    -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+}
+
+
 
 /* ========================================================================
    Component: Shadow
@@ -736,6 +737,7 @@ input[type=range] + .thumb {
     width: 99% !important;
     margin-right: 150px;
     /*
+    margin-left: 45px;
     margin-left: 45px;
     */
 }
