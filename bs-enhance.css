@@ -226,6 +226,18 @@
 .card-small .nav-default .nav-sub {
     padding-left: 35px;
 }
+.card-dropdown {
+    border: none;
+    border-radius: 1px !important;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    box-sizing: border-box;
+    -webkit-transition: box-shadow 0.1s ease-in-out;
+    transition: box-shadow 0.1s ease-in-out;
+}
+.card-dropdown:hover{
+    visibility: visible;
+}
 /*
      * Large
      */
@@ -258,19 +270,19 @@
 }
 
 html, body{
-    font-family: 'Montserrat-Regular', sans-serif;
+    font-family: 'CamptonMedium', sans-serif !important;
     font-size: 100%;
     background:#F3F3F4;
     height: 100%;
     overflow-x: hidden;
 }
 @font-face{
-    font-family:'Montserrat-Regular';
-    src:url(fonts/Montserrat-Regular.ttf) format('truetype');
+    font-family:'CamptonLight';
+    src:url(fonts/CamptonLight/fonts/CamptonLight.ttf) format('truetype');
 }
 @font-face{
-    font-family: 'Muli-Regular';
-    src:url(fonts/Muli-Regular.ttf) format('truetype');
+    font-family: 'CamptonMedium';
+    src:url(fonts/CamptonMedium/fonts/CamptonMedium.ttf) format('truetype');
 }
 
 body a{
